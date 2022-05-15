@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "b01bb3b64e8c84",
-    "password": "cecf4c8e",
-    "database": "heroku_4f18a4aadbd2f98",
-    "host": "us-cdbr-east-05.cleardb.net",
+    "username": "root",
+    "password": "yo558231",
+    "database": "manukuahealth",
+    "host": "localhost",
     "dialect": "mysql"
   }
 }
