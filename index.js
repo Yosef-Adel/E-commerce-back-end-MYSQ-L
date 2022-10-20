@@ -5,14 +5,14 @@ const db =require('./models')
 require("dotenv").config();
 app.use(cors());
 app.use(express.json());
-const productRouter = require('./routs/Product');
+const productRouter = require('./routes/Product');
 
 app.use("/product", productRouter)
-const userRouter = require('./routs/User');
+const userRouter = require('./routes/User');
 
 app.use("/user", userRouter)
 
-const orderRouter = require('./routs/Order')
+const orderRouter = require('./routes/Order')
 app.use("/order", orderRouter)
 
 
